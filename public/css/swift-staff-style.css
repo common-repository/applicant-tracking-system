@@ -1,0 +1,610 @@
+.swift-job-wrap{
+    border-bottom: 1px solid #ccc;
+    display: block;
+    margin: 0;
+    padding: 15px 5px;
+}
+.swift-job-wrap:hover {
+    background-color: #fffdeb;
+}
+.swift-job-header {
+    margin: 0 0 10px;
+    overflow: hidden;
+}
+.swift-job-header .swift-job-title {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    font-weight: 700;
+}
+.swift-job-wrap a {
+    color: #1a1a1a;
+    text-decoration: none;
+    box-shadow: none !important;
+}
+.swift_staff-readmore {
+    border-bottom: 1px solid;
+    font-style: italic;
+}
+.swift-job-display-none{
+    display: none;
+}
+/* page template */
+.swift-staff-container.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.swift-staff-page {
+    margin: 15px 0;
+    width: 100%;
+    display: table;
+}
+.swift-staff-col-8,
+.swift-staff-col-4{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table-cell;
+}
+.swiftstaff-row{
+    width: 100%;
+    display: table-row;
+}
+.swift-staff-col-8{
+    vertical-align: top;
+    min-height: 1px;
+    padding-left: 1%;
+    padding-right: 2%;
+    width: 67%;
+}
+.swift-staff-col-4 {
+    vertical-align: top;
+    min-height: 1px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 28%;
+}
+.swift-staff-jobs-wrap, .swift-staff-page-title{
+    margin-bottom: 15px;
+}
+.swift-staff-page-title h1{
+    color: #196abc;
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.swift-staff-page-content{
+
+}
+.swift-staff-sidebar-bg{
+    background-color: #f2f2f3;
+}
+.swift-staff-sidebar {
+    min-height: 250px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.swift-staff-sidebar ul.swift-staff-latest-jobs li a:hover{
+    text-decoration: underline;
+}
+.swift-staff-widget {
+    color: #333;
+    float: left;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.swift-staff-widget:last-child {
+    margin-bottom: 0;
+}
+.swift-staff-widget-inner{
+    margin-bottom: 15px;
+}
+.swift-staff-widget-inner:last-child{
+    margin-bottom: 0;
+}
+.swift-staff-widget-title {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+
+/* latest jobs widget */
+ul.swift-staff-latest-jobs{
+    margin: 0 0;
+    padding: 0;
+    list-style: none;
+}
+ul.swift-staff-latest-jobs a{
+    text-decoration: none;
+}
+ul.swift-staff-latest-jobs li a .swift-staff-latest-date{
+    display: block;
+}
+ul.swift-staff-latest-jobs > li {
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+/* latest jobs widget */
+
+/* end search jobs widget */
+.swift-staff-search-form-wrap {
+    position: relative;
+}
+.swift-staff-search-form-wrap input.search-field[type="search"] {
+    border-radius: 2px 0 0 2px;
+    width: calc(100% - 42px);
+
+    background-color:#f7f7f7 ;
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    color: #686868;
+    padding: 10px 7px;
+}
+.swift-staff-search-jobs-submit {
+    background-color: #d1d1d1;
+    border: 1px solid #d1d1d1;
+    border-radius: 0 2px 2px 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 42px;
+}
+.swift-staff-search-jobs-submit::before {
+    color: #fff;
+    content: "\f002";
+    font-size: 24px;
+    left: 0px;
+    top:-2px;
+    line-height: 42px;
+    position: relative;
+    width: 40px;
+    font-family: 'FontAwesome';
+}
+.swift-staff-search-jobs-submit:hover{
+    background-color: #BBBBBB;
+    border-color:#BBBBBB;
+}
+.swift-staff-search-jobs-submit span{
+    display: none;
+}
+/* end search jobs widget */
+
+/* sidebar */
+.jobs-sidebar-bg{
+    background-color: #f2f2f3;
+}
+.jobs-sidebar {
+    overflow: hidden;
+    min-height: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.jobs-sidebar a{
+    color: #1a1a1a;
+}
+.jobs-sidebar a:hover{
+    color: #6a6a6a;
+    text-decoration: none;
+}
+.jobs-sidebar a:hover i{
+    color: #196abc;
+    text-decoration: none;
+}
+.jobs-widget{
+    float: left;
+    width: 100%;
+    color: #333;
+    margin-bottom: 15px;
+}
+.ss-widget-left-box{
+    float: left;
+    width: 48%;
+}
+.ss-widget-right-box{
+    float: right;
+    width: 48%;
+    text-align: right;
+}
+.jobs-widget:last-child{
+    margin-bottom: 0;
+}
+.jobs-widget a{
+    color: #1a1a1a;
+}
+.jobs-print{
+    float: right !important;
+}
+.jobs-pagination{
+    font-size: 14px;
+    float: left;
+}
+.jobs-pagination-link{
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+}
+.jobs-pagination-link a{
+    color: #999;
+    padding: 8px 10px;
+    display: block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.jobs-pagination .jobs-prev-link, .jobs-pagination .jobs-next-link{
+    /*float: left;*/
+    margin: 0;
+}
+.swiftstaff_applybox{
+    background: #fdf2ae;
+    padding: 0;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.swiftstaff_applybox > button{
+    background: #ff7200;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 50px;
+    margin: 10px 0;
+    width: auto;
+    display: inline-block;
+}
+.swiftstaff_applybox button:hover{
+    background: #f99549;
+}
+.swiftstaff_apply_form{
+    float: left;
+    width: 94%;
+    background: #FFF;
+    border: 5px solid #FFF;
+    padding: 3% 0;
+    margin: 3%;
+    display: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.swiftstaff_form_row{
+    text-align: left;
+    margin-bottom: 10px;
+    margin: 0 10% 10px;
+}
+.swiftstaff_form_row label{
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: inline-block;
+    max-width: 100%;
+}
+.swiftstaff_apply_form .ss-swift-form input[type="text"],
+.swiftstaff_apply_form .ss-swift-form input[type="email"],
+.swiftstaff_apply_form .ss-swift-form textarea{
+    background-color: #fffdeb;
+    border-color: #333;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    margin: 0;
+    padding: 10px 7px;
+    width: 100%;
+    min-width: 260px;
+}
+.swiftstaff_apply_form .ss-swift-form .wp-editor-container .mce-edit-area{
+    border: 1px solid #ddd !important;
+}
+.swiftstaff_apply_form .ss-swift-form iframe{
+    width: 99% !important;
+}
+.swiftstaff_form_apply_now{
+    background: #ff7200;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 50px;
+    width: auto;
+    display: inline-block;
+    float: right;
+}
+
+/* tag list */
+.swiftstaff-tags-list{
+    list-style: none;
+    margin:15px 0 0;
+    padding: 0;
+}
+.swiftstaff-tags-list > li {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.swiftstaff-tags-list a::before {
+    content: "#";
+}
+.swiftstaff-tags-list a {
+    background-color: #f2f2f3;
+    color: #6a6a6a !important;
+    margin: 0;
+    padding:5px 10px;
+    display: block;
+    font-size: 12px;
+    line-height: normal;
+    text-decoration: none;
+}
+.swiftstaff-tags-list a:hover{
+    background-color: #fef6ab;
+    color: #196abc !important;
+    text-decoration: underline;
+}
+.swiftstaff-row .swiftstaff-tags-wrap {
+    padding: 0;
+    margin-bottom: 10px;
+}
+.swift-staff-job-location{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.preInterview{
+    display: none;
+}
+.preInterview h3{
+    font-size: 20px;
+    margin: 50px 0 20px;
+    text-align: center;
+}
+
+/* staff list */
+.swift-staff-list-wrapper, .swift-staff-block{
+    width: 100%;
+    float: left;
+}
+.swift-staff-block{
+    padding: 20px 0px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.swift-staff-block:hover{
+    background-color: #fffdeb;
+}
+.staff_avatar_container{
+    float: left;
+    width: 23%;
+}
+.swift-staff-info{
+    float: left;
+    width: 77%;
+}
+.swift-staff-info-full{
+    float: left;
+    width: 100%;
+}
+.staff_avatar{
+    float: left;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    margin: 0 10%;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.staff_avatar a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.staff_avatar img{
+    width: 150px;
+    max-height: 150px;
+    border-radius: 100%;
+    text-align: center;
+    max-width: 150px;
+}
+.swift-staff-title h2, .swift-staff-job-title h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.swift-staff-title h2 a, .swift-staff-job-title h4 a{
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    font-weight: 700;
+    display: block;
+}
+.swift-staff-job-title h4 a{
+    font-size: 16px;
+}
+.single-swift_staffs .swift-staff-job-title h4{
+    margin-bottom: 15px;
+}
+.swift-staff-content a{
+    color: #1a1a1a;
+    text-decoration: none;
+}
+.single_staff_avatar{
+    float: right;
+    margin: 0 0 20px 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.single_staff_avatar img{
+    visibility: hidden;
+}
+.ss-search-box{
+    margin-bottom: 25px;
+}
+.ss-input-group{
+    position: relative;
+}
+.ss-input-group input[type="text"]{
+    padding: 15px 56px 15px 15px;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 100%;
+    line-height: normal;
+}
+.ss-input-group input[type="text"]:focus{
+    border: 1px solid #bbb;
+}
+.ss-group-btn{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ss-group-btn button{
+    border: none;
+    font-size: 20px;
+    height: 56px;
+    width: 56px;
+    background-color: #808080;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #fff;
+}
+.ss-group-btn button:hover{
+    background-color: #ccc;
+}
+.swiftcloud-edit-link {
+    display: block;
+    clear: both;
+}
+.plugin-credit {
+    display: inline-block;
+    font-size: 11px;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+    color: #999;
+}
+.plugin-credit a {
+    color: #999;
+    text-decoration: none;
+}
+.plugin-credit a:hover {
+    color: #333;
+    text-decoration: none;
+}
+.swift-staff-job-posted{
+    display: none;
+}
+
+
+.swiftstaff-widget{
+    float: left;
+    width: 100%;
+    color: #333;
+    margin-bottom: 15px;
+}
+.swiftstaff-widget:last-child{
+    margin-bottom: 0;
+}
+.swiftstaff-print{
+    float: right !important;
+}
+.swiftstaff-pagination{
+    font-size: 14px;
+    float: left;
+}
+.swiftstaff-pagination-link{
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0 0px;
+    text-align: center;
+}
+.swiftstaff-pagination-link a{
+    color: #999;
+    display: block;
+    padding: 5px 10px;
+}
+.swiftstaff-pagination .swiftstaff-prev-link{
+    /*float: left;*/
+    margin: 0;
+}
+.swiftstaff-error{
+    color: red;
+    margin-left: 0;
+    font-size: 14px;
+}
+.swiftstaff_success{
+    color: green;
+    font-size: 14px;
+}
+
+@media(min-width: 991px) and (max-width: 1200px){
+    .staff_avatar_container {
+        float: left;
+        width: 30%;
+    }
+    .swift-staff-info {
+        float: left;
+        width: 70%;
+    }
+    .swift-staff-page{
+        margin: 15px 0;
+    }
+    .swift-staff-container.container{
+        width: 100%;
+    }
+}
+@media(max-width: 990px){
+    .staff_avatar_container, .swift-staff-info, .swift-staff-info-full {
+        width: 100%;
+        text-align: center;
+    }
+    .staff_avatar{
+        float: none;
+        margin: 0 auto 20px;
+    }
+    .swift-staff-container.container{
+        width: 100%;
+    }
+    .swift-staff-page{
+        margin: 15px 0;
+    }
+}
+@media(max-width: 767px){
+    .swift-staff-col-8, .swift-staff-col-4{
+        width: 96%;
+        padding-left: 2%;
+        padding-right: 2%;
+        display: block;
+        -webkit-box-sizing: initial;
+        -moz-box-sizing: initial;
+        box-sizing: initial;
+    }
+    .single_staff_avatar{
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
